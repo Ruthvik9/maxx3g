@@ -1,0 +1,287 @@
+body,html{
+  margin:0;
+  background:#e6ffe6;
+  width:96rem;
+}
+@font-face {
+  font-family: "font1";
+  src:url('../font2/font.otf');
+}
+@font-face {
+  font-family: "selima";
+  src:url('../font2/fon.otf');
+}
+.info{
+  color: #7c0080;
+  font-size: 2em;
+  margin-left: 7%;
+  background: antiquewhite;
+  border-radius: 30px;
+  display: inline-block;
+  width: 27rem;
+  text-align: center;
+  height: 4.5rem;
+line-height: 1.9em;
+font-family:selima;
+
+}
+.info1{
+  color: #7c0080;
+  font-size: 2em;
+  margin-left: 63%;
+  background: antiquewhite;
+  border-radius: 30px;
+  display: inline-block;
+  width: 27rem;
+  height: 4.5rem;
+line-height: 1.9em;
+  text-align: center;
+  font-family:selima;
+}
+.para{
+
+background:#d0bc1b;
+width:70%;
+border-radius:20px;
+margin-left:7%;
+font-family:"Times new roman";
+line-height: 2em;
+font-size: 1.5em;
+font-weight: lighter;
+letter-spacing: 0.03em;
+word-spacing: 0.2em;
+margin-top:-1rem;
+padding:25px;
+}
+
+#plusl{
+  position:relative;
+  left:1rem;
+  top:-10rem;
+}
+#plusr{
+  position:relative;
+  right:-80rem;
+  top:-10rem;
+}
+
+a{
+  text-decoration:none;
+  color:#efec23;
+  font-size:25px;
+  font-weight:bold;
+  font-family: "Courier New";
+transition:0.6s ease 0.05s;
+}
+#head{
+background:white;
+position:relative;
+top:-2rem;
+}
+
+#pimages{
+
+  background:url("../images/pbg.jpg");
+  height:150rem;
+
+}
+
+a:hover{
+  font-size:28px;
+  text-shadow:3px 3px 3px;
+}
+
+
+#cp{
+  margin-left:45%;
+  color:#ff0000;
+
+}
+
+#nav{
+
+  height: 3rem;
+text-align: center;
+padding-top: 0.6rem;
+width:60%;
+margin-right: auto;
+margin-left: auto;
+
+background: #f7ff00;
+background-image:linear-gradient(to bottom right,rgba(0, 124, 255, 0.84),#a6a6a6e8,rgba(8, 0, 255, 0.78));
+border-radius:40px;
+}
+#title1{
+  color:red;
+  font-size:30px;
+  font-weight: bolder;
+}
+#title2{
+  color:green;
+  font-size:30px;
+    font-weight: bolder;
+}
+#title3{
+  color:red;
+  font-size:30px;
+    font-weight: bolder;
+}
+
+#heading{
+  margin-top:2rem;
+  width:57rem;
+  margin-left:auto;
+
+}
+#uparrow{
+  width: 180px;
+margin-left: 81rem;
+
+}
+#blackbg{
+  background:#000000;
+  margin-top:-10rem;
+}
+
+#image{
+    line-height:20rem;
+		width: 40rem;
+    height: 25rem;
+		border:5px solid black;
+		margin:0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:5vh;
+    font-size: 1.5rem;
+}
+
+.preview{
+		width:10%;
+		margin-left:17%;
+    border: 10px solid black;
+}
+@@font-face {
+  font-family:myfont;
+  src:url(Vintages.ttf);
+}
+
+#threeply{
+  display:block;
+  margin-left:250px;
+height:500px;
+border-radius: 20px;
+}
+.wwo{
+  color: #ffffff;
+font-size: 38px;
+font-weight: 700;
+line-height: 32px;
+margin: 0;
+padding: 0 0 35px;
+position: relative;
+text-align: center;
+font-family: "century Gothic";
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+max-width:40vw;
+  border-radius: 30px;
+}
+.round{
+  border-radius:30px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

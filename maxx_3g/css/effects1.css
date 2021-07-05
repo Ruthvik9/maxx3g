@@ -1,0 +1,128 @@
+body{
+  background:#000000;
+  width:96rem;
+  margin:0;
+}
+#heading{
+  margin-top:2rem;
+  width:57rem;
+  margin-left:auto;
+
+}
+#nav{
+
+  height: 3rem;
+text-align: center;
+padding-top: 0.6rem;
+width: 60%;
+margin-right: auto;
+margin-left: auto;
+
+background: #f7ff00;
+background-image:linear-gradient(to bottom right,rgba(0, 124, 255, 0.84),#a6a6a6e8,rgba(8, 0, 255, 0.78));
+border-radius:40px;
+}
+a:hover{
+  font-size:28px;
+  text-shadow:3px 3px 3px;
+}
+#contt{
+  background-image:url("../images/contact1.jpg");
+  margin-top:-140px;
+}
+
+a{
+  text-decoration:none;
+  color:#efec23;
+  font-size:25px;
+  font-weight:bold;
+  font-family: "Courier New";
+transition:0.6s ease 0.05s;
+}
+fieldset{
+background: #ffe30070;
+}
+legend{
+
+    font-size: 2vw;
+    color: #f5fd0f;
+}
+#fill{
+  font-size:20px;
+  border: 3px dotted blue;
+text-align: center;
+color:#f5fd0f;
+}
+#or{
+  font-size:30px;
+  width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+label{
+  display:block;
+  width:300px;
+  float:left;
+  font-family: impact;
+  letter-spacing: 1px;
+  font-size:20px;
+}
+#plusl{
+  position:relative;
+  left:1rem;
+  top:-10rem;
+}
+#plusr{
+  position:relative;
+  right:-80rem;
+  top:-10rem;
+}
+#head{
+background:white;
+position:relative;
+top:-2rem;
+}
+.cd{
+display:inline-block;
+float:left;
+width:200px;
+}
+#cod{
+  height:450px;
+}
+.cod{
+  width: 700px;
+padding-left: 160px;
+font-size: 25px;
+color: #411f74;
+padding-left: 5%;
+}
+
+#contacttitle{
+
+  display:block;
+  width:60%;
+  margin-left:20%;
+  text-align:center;
+  font-size:25px;
+  height: 50px;
+padding: 12px;
+color: #3f00ef;
+}
+
+#title1{
+  color:red;
+  font-size:30px;
+  font-weight: bolder;
+}
+#title2{
+  color:green;
+  font-size:30px;
+    font-weight: bolder;
+}
+#title3{
+  color:red;
+  font-size:30px;
+    font-weight: bolder;
+}
+* {box-sizing:border-box}
